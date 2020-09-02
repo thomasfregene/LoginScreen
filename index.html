@@ -19,7 +19,8 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="text-center">A project based approach to learn Modal</h1>
-                <p class="text-center"><a href="" data-target="#login-modal" data-toggle="modal" role="button"  class="btn btn-primary btn-lg">Login Here</a></p>
+                <p class="text-center"><a href="" data-target="#login-modal" data-toggle="modal" role="button"
+                        class="btn btn-primary btn-lg">Login Here</a></p>
             </div>
         </div>
     </div>
@@ -27,11 +28,37 @@
     <div class="modal fade" id="login-modal">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="diplay-2 text-primary">IT</h1>
+                <div class="modal-header text-center">
+                    <h1 class="text-primary">IT</h1>
+                </div>
+
+                <div id="div-forms">
+                    <form>
+                        <div class="modal-body">
+                            <div>Type your Email and password here:</div>
+                            <input class="form-control" placeholder="Email" type="text" required>
+                            <input class="form-control" placeholder="Password" type="password" required>
+                            <div class="checkbox">
+                                <label for="">
+                                    <input type="checkbox" name="" id="">Remember Me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 
